@@ -1,7 +1,7 @@
 # Cancer-Grading---Computer-vision
-Done as part of CV course assignment  
+Done as part of Design Project 
 
-Problem Description:
+## Problem Description:
 
 
 
@@ -11,7 +11,7 @@ All the images attached along with this show cells identifiable by their well-st
 
 The diagnosis report is defined as follows:  
 
-percentage positivity =  percentage of Total nuclei that are brown in color / Total nuclei in the picture (blue & brown inclusive)
+**percentage positivity =  percentage of Total nuclei that are brown in color / Total nuclei in the picture (blue & brown inclusive)**
 
  
 
@@ -28,7 +28,6 @@ Currently, we see the image in the microscope, count and calculate the %, manual
 The gold standard is to take prints and manually count on the images and many studies show that this is objective. To save on paper and time, we want the software to do the job. Brown nuclei indicate that they express the immune marker called Ki67 and the higher the percentage positivity, the more aggressive it is considered to be. In many cases, a cut-off is used to grade cancer. For example <15% is considered low grade and >15% as high grade. Treatment and follow-up actions differ in these 2 situations. Hence, the real problem is with borderline percentages (between 20 & 30% on manual counts). We expect the software to give more accurate and reproducible results.
 
 
- 
 
 Here the software must do 2 things
 
@@ -39,3 +38,16 @@ Here the software must do 2 things
 A score is derived based on the information from the above 2 results.
 
 The score guides therapy and has prognostic implications too.
+
+## Dataset :  
+
+
+The SHIDC-B-Ki-67 dataset has been downloaded by sending the request at this [link](https://shiraz-hidc.com/service/ki-67-dataset/)     
+
+
+## Approaches :       
+
+
+The problem has been tried to 
+
+
